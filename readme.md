@@ -63,5 +63,23 @@ This is basicaly a setup for a test. It says that for the to run, before we need
 The very word "expectations" doesn't leave much to the imagination. As the word says, Expectations in contex of testing is the specific outcome or behavior that we want to take out from that specific test. It's what we expect the test to prove.
 #
 
+#### Question 8. To the best of your knowledge please write a line to line explanation of what is happening in this code:
 
+```
+<script src="js/fizzbuzz.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            let button = document.getElementById('button')
+            let displayDiv = document.getElementById('display_answer')
+            button.addEventListener('click', () =>{
+                let value = document.getElementById('value').value
+                let fizzBuzz = new FizzBuzz
+                let result = fizzBuzz.check(value)
+                displayDiv.innerHTML = result;
+            })
+        })
+    </script>
+```
+The first ```<script>``` tag is calling into the html file the JavaScript file where we created our logic/functionality. The secont one is setting an ```EventListener```, which is a function that sets what piece of code should run when an event happens, for example a click. In this case we first are establishing a button variable and assigning it to the actual button that we have in our html file finding it by it's ID. We do the exact same thing for the ```<div>``` where the result will be dispayled. Finally we add an ```EventListener``` to the button we established before, and saying that when it is clicked it should run our FizzBuzz function and display the result in our html.
 
