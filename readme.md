@@ -18,3 +18,9 @@ It looks to me that these lines are establishing syntax rules. The first line is
 #### Question 2. To the best of your knowledge please explain why we are placing the ```let fizzBuzz = new FizzBuzz``` outside the it block?
 
 The ```let fizzBuzz = new FizzBuzz``` is an instance of the Class/Funtions FizzBuzz and it's created as an example of that class to be used for testing. It's located outside the ```it``` block because if it was inside, it could only be used for that specific test. Having it outside will allow us to call out that instance for other tests.
+#
+
+#### Question 3. To the best of your knowledge please explain the difference between using ```===``` and ```==``` in JS?
+
+The difference is that the equality using the ```===``` will only be true if the elements that are being compared are from the same type.
+#
