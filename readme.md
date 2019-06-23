@@ -89,4 +89,6 @@ The first ```<script>``` tag is calling into the html file the JavaScript file w
 CDN are servers that host elements, functions or code that can be linked to an html file. With it there is no need to have those elements in every local machine where we want the website to load (which would be impossible), and we can then access them remotely through the CDNs.
 #
 
-# TO VISIT MY FIZZBUZZ WEBSITE CHECK:
+# TO VISIT MY FIZZBUZZ WEBSITE CHECK: https://pedrocbras.github.io/fizzbuzz_js/
+
+
