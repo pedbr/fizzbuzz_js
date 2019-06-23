@@ -14,11 +14,11 @@ describe('User can input a value and get FizzBuzz results', () => {
       await  browser.close();
   })
 
-  it('clicking on the "Check" button', async () => {
+  it('clicking on the "PLAY!" button', async () => {
     await browser.fillIn("input[id='value']", { with:  "3" })
-    await browser.clickOnButton("input[value='Check']")
+    await browser.clickOnButton("input[value='PLAY!']")
     let content = await browser.getContent("[id='display_answer']")
-    expect(content).to.eql('Fizz');
+    expect(content).to.eql('FIZZ!');
 })
 
 })

@@ -1,3 +1,7 @@
+#all {
+    background-color: #0B0C10;
+}
+
 .checkbox {
     margin: auto;
     text-align: center;
@@ -5,5 +9,19 @@
 
 .fizzbuzz {
     margin:auto;
+    margin-top:15%;
     text-align:center;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 100px;
+    color: #66FCF1
+}
+
+#display_answer {
+    margin:auto;
+    text-align:center;
+    color: #C5C6C7;
+    font-family: 'Work Sans';
+    font-weight: bold;
+    font-size: 120px;
 }

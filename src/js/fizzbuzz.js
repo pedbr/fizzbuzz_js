@@ -1,13 +1,13 @@
 function FizzBuzz()  {
     this.check = (number) => {
         if (number % 15 === 0) {
-            return 'FizzBuzz';
+            return 'FIZZBUZZ!';
         }
         if (number % 5 === 0) {
-            return 'Buzz';
+            return 'BUZZ!';
         }
         else if (number % 3 === 0) {
-            return 'Fizz';
+            return 'FIZZ!';
         } 
         else {
             return number
