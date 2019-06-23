@@ -24,3 +24,9 @@ The ```let fizzBuzz = new FizzBuzz``` is an instance of the Class/Funtions FizzB
 
 The difference is that the equality using the ```===``` will only be true if the elements that are being compared are from the same type.
 #
+
+#### Question 4. To the best of your knowledge please explain why we are moving ```(number % 5 === 0)``` to the top?
+
+The code is read and run from the top to bottom, and adding the ```(number % 5 === 0)``` on the top means that we want that code to run first and be prioritized. So, for example, if we leave the code as it is, and if the input is 15, the output would be Buzz, even though 15 is divisable by 3 and 5 it will return Buzz because that part of the code is on top and it will prioritized. Eventualy we will add a similar condition for the program to return FizzBuzz when the number is divisable by 15, and that code should be added at the top, so that if the input is 30 for instance, even though it is divisable by 3 and 5 as well, the program will return FizzBuzz, again because that part of the code is on the top and will be read first.
+#
+
