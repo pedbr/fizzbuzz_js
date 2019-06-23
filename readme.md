@@ -82,4 +82,11 @@ The very word "expectations" doesn't leave much to the imagination. As the word 
     </script>
 ```
 The first ```<script>``` tag is calling into the html file the JavaScript file where we created our logic/functionality. The secont one is setting an ```EventListener```, which is a function that sets what piece of code should run when an event happens, for example a click. In this case we first are establishing a button variable and assigning it to the actual button that we have in our html file finding it by it's ID. We do the exact same thing for the ```<div>``` where the result will be dispayled. Finally we add an ```EventListener``` to the button we established before, and saying that when it is clicked it should run our FizzBuzz function and display the result in our html.
+#
 
+#### Question 9. To the best of your knowledge please explain what a CDN (Content Delivery Network) is?
+
+CDN are servers that host elements, functions or code that can be linked to an html file. With it there is no need to have those elements in every local machine where we want the website to load (which would be impossible), and we can then access them remotely through the CDNs.
+#
+
+# TO VISIT MY FIZZBUZZ WEBSITE VISIT:
