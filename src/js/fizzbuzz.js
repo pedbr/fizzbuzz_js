@@ -1,9 +1,12 @@
 function FizzBuzz()  {
     this.check = (number) => {
-        if (number % 15 === 0) {
+        if (number <= 0) {
+            return 'MORE THAN 0!';
+        }
+        else if (number % 15 === 0) {
             return 'FIZZBUZZ!';
         }
-        if (number % 5 === 0) {
+        else if (number % 5 === 0) {
             return 'BUZZ!';
         }
         else if (number % 3 === 0) {
