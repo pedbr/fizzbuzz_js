@@ -1,5 +1,8 @@
 # JavaScript FizzBuzz Challenge
 
+## Author: Pedro Brás
+#
+
 Part of the second week of the Craft Academy coding bootcamp, this project consists on the development of the game FizzBuzz using JavaScript.
 
 Along the way, some questions regarding the concepts being used will be posed and answered.
@@ -55,4 +58,10 @@ describe('User can input a value and get FizzBuzz results', () => {
 This is basicaly a setup for a test. It says that for the to run, before we need to open the browser, to visit a specific URL. Then it is saying that the page needs to be reloaded before each individual test, and finally that the browser needs to close after all the tests are done.
 #
 
-#### 
+#### Question 7. To the best of your knowledge please explain what expectations in the context of testing are.
+
+The very word "expectations" doesn't leave much to the imagination. As the word says, Expectations in contex of testing is the specific outcome or behavior that we want to take out from that specific test. It's what we expect the test to prove.
+#
+
+
+
